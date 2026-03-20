@@ -1,0 +1,9 @@
+# веса, датасеты и результаты обучения не публикуются
+*.pt
+*.pth
+runs/
+augmented_dataset/
+*.zip
+live_view.jpg
+__pycache__/
+.ipynb_checkpoints/
