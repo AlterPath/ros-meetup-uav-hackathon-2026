@@ -1,0 +1,8 @@
+path: /home/alterpath/drones/catkin_ws/src/hack_drones_20-22/augmented_dataset/detect_data
+train: train/images
+val: val/images
+
+names:
+  0: cheburashka_only 
+  1: cheburashka_orange
+  2: orange
