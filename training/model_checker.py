@@ -12,7 +12,7 @@ WIN_W, WIN_H = 800, 600
 # =================
 
 class ModelChecker:
-    def init(self):
+    def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIN_W, WIN_H))
         pygame.display.set_caption("YOLO Checker - Wait for Camera...")
@@ -100,6 +100,6 @@ class ModelChecker:
         pygame.quit()
         sys.exit()
 
-if __name__ == "main":
+if __name__ == "__main__":
     checker = ModelChecker()
     checker.run()

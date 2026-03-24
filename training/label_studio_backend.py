@@ -2,8 +2,8 @@ from label_studio_ml.model import LabelStudioMLBase
 from ultralytics import YOLO
 
 class YOLOv8nBackend(LabelStudioMLBase):
-    def init(self, **kwargs):
-        super().init(**kwargs)
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         # Загружаем pretrained модель YOLOv8n
         self.model = YOLO('yolov8n.pt')  # можно заменить на кастомный путь
 
