@@ -53,3 +53,7 @@ Python, ROS 2 (rclpy, cv_bridge), Ultralytics YOLOv8, PyTorch, OpenCV, pygame, L
 ## License
 
 [MIT](LICENSE)
+
+---
+
+<sub>The code was written in March 2026 and published on GitHub in November 2026. Commit dates follow the dates of the original files; the README and figures were added at publication. The `__init__` and `__main__` names lost in copying two training scripts were restored at the same time.</sub>
